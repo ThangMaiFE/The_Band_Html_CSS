@@ -1,0 +1,13 @@
+
+link : https://www.w3schools.com/w3css/tryw3css_templates_band.htm
+
+1.Header
+    1.1 navigation
+    1.2 search
+2.slider
+3.content
+    3.1 About
+    3.2 Tour
+    3.3 Contact
+    3.4 map
+4.footer

@@ -1,0 +1,119 @@
+/* PC >= 1024px */
+@media screen and (min-width: 64em) {
+}
+
+/* tablet >=740px & < 1024px */
+@media screen and (max-width: 63.9375em) and (min-width: 46.25em) {
+}
+
+/*  tablet & mobile < 1024px */
+@media screen and (max-width: 63.9375em) {
+  .contact-info {
+    line-height: 2;
+  }
+
+  .socials-list > a {
+    margin: 0 6px;
+    padding: 4px;
+  }
+
+  .copyright a {
+    padding: 8px 0;
+    display: inline-block;
+  }
+
+  .copyright {
+    font-size: 20px;
+  }
+
+  .send-btn {
+      width: 100%;
+      padding: 15px;
+  }
+
+  .contact-form .form-control {
+      padding: 14px;
+  }
+
+  .place-buy-btn {
+      padding: 16px;
+  }
+}
+
+/* mobile <740px */
+@media screen and (max-width: 46.1875em) {
+  .text-heading {
+    font-size: 20px;
+  }
+
+  .text-description {
+    margin-top: 8px;
+    font-size: 13px;
+  }
+
+  #slider .text-content {
+    bottom: 24px;
+    width: 300px;
+  }
+
+  .col {
+    float: unset;
+  }
+
+  .place-buy-btn,
+  #nav li a,
+  .col-half,
+  .col-third {
+    width: 100%;
+  }
+
+  #content .member-img {
+    width: 60%;
+  }
+
+  #content .member-name {
+    margin: 31px 0 15px;
+  }
+
+  .place-list,
+  .place-item {
+    margin-top: 16px;
+  }
+
+  .contact-form .form-control,
+  .mt-8 {
+    margin-top: 8px;
+  }
+
+  .contact-info {
+    margin-bottom: 14px;
+  }
+
+  .mobile__bars-btn,
+  #nav,
+  #nav > li {
+    display: block;
+  }
+
+  .search-btn {
+    display: none;
+  }
+
+  #header {
+    overflow: hidden;
+  }
+
+  #nav > li:first-child {
+    display: inline-block;
+  }
+
+  #nav .subnav {
+    position: initial;
+    background-color: #333;
+  }
+
+  #nav .subnav li a {
+    color: #fff;
+    padding: 4px 34px;
+  }
+}
